@@ -1,5 +1,4 @@
 import React from "react";
-import HomeCarouselbg from "./HomeCarouselbg";
 import Aboutcomponent from "./Aboutcomponent";
 import Dataitems from "./Dataitems";
 // import HomeNews from "./homeNews";
@@ -13,9 +12,7 @@ import WhatsappPop from "./WhatsappPop";
 export default function Home() {
     return (
         <>
-            {/* <div style={{ height: "600px" }}></div> */}
             <section>
-                {/* <HomeCarouselbg /> */}
             <WhatsappPop/>
                 <Carousel>
                     <Carousel.Item>
