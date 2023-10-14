@@ -1,0 +1,19 @@
+.translateimg img {
+    height: 26px;
+    width: 26px;
+}
+
+.translate {
+    position: fixed;
+    color: white;
+    transform: translateY(40vh);
+    width: 3px !important;
+    float: left !important;
+    height: auto;
+    z-index: 1 !important;
+}   
+.translate button{
+    font-size: small;
+    border-radius: 10px;
+    margin-top: 5px;
+}
