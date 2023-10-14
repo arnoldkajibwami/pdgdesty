@@ -75,10 +75,10 @@ export default function Footer() {
                             </button>
                         </div>
                         <div className="copyright">
-                            &copy; Copyright <strong><span><NavLink style={{ color: "skyblue", textDecoration: "none" }} to="/adminpage" onClick={BackToTOP} className="Madename">NgtechRent</NavLink></span></strong>. All Rights Reserved
+                            &copy; Copyright <strong><span><NavLink style={{ color: "skyblue", textDecoration: "none" }} to="/adminpage" onClick={BackToTOP} className="Madename">FondationdestinRent</NavLink></span></strong>. All Rights Reserved
                         </div>
                         <div className="credits">
-                            Made by <NavLink to="https://Ng-technology.netlify.app" style={{ color: "skyblue", textDecoration: "none", fontWeight: "bold" }} className="Madename">Ngtech</NavLink>
+                            Made by <NavLink to="https://Ng-technology.netlify.app" style={{ color: "skyblue", textDecoration: "none", fontWeight: "bold" }} className="Madename">Fondationdestin</NavLink>
                         </div>
                     </div>
                 </div>
