@@ -44,19 +44,19 @@ const Header = () => {
         <div className={`mt-2 nav-elements ${showNavbar && 'active'}`} style={{ marginRight: "35px" }}>
           <ul className='ullistnavbar'>
             <li>
-              <NavLink onClick={handleShowNavbarclose} to="/home">Accueil</NavLink>
+              <NavLink to="/home">Accueil</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleShowNavbarclose} to="/about">Apropos</NavLink>
+              <NavLink to="/about">Apropos</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleShowNavbarclose} to="/news">Activite</NavLink>
+              <NavLink to="/news">Activite</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleShowNavbarclose} to="/gallery">Gallery</NavLink>
+              <NavLink to="/gallery">Gallery</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleShowNavbarclose} to="/contact">Contact</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
             <button onClick={Alertdon} className='btn btn-danger donbutton'>Donation</button>
           </ul>
