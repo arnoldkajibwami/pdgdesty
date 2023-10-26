@@ -6,7 +6,7 @@ export default function WhatsappPop (){
   return (
       <FloatingWhatsApp 
       phoneNumber='+243971133807'
-      accountName='QUICH SERVICE'  
+      accountName='Fondation Bulambo Destin'  
       chatMessage='Bonjour !'
       />
   )
